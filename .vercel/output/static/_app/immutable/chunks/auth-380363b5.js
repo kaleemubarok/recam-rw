@@ -1,1 +1,0 @@
-import{B as e}from"./index-d1f1804c.js";const o="";var t;const l=(t=window.localStorage.getItem("authToken"))!=null?t:o,n=e(l);n.subscribe(a=>{window.localStorage.setItem("authToken",a)});export{n as a};
