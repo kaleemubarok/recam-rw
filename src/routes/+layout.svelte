@@ -179,7 +179,7 @@
 							<div class="col-3 item-menu text-center">
 								<a href="/" on:click={deleteLocalStorage} class={$page.url.pathname == '/route' ? 'text-white' : 'text-grey'}
 									>
-									<img src="/ic_basic_settings_gray.svg" alt="logot"/>
+									<img src="/ic_basic_settings_gray.svg" alt="logot"/> 
 								</a>
 							</div>
 						</div>
