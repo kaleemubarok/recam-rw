@@ -66,7 +66,7 @@
         },
       });
     const rjson = await res.json();
-    !rjson.error ? dspl='none' : dspl;
+    !rjson.error ? teratasiButton='none' : teratasiButton;
     console.log(rjson);
   }
 
