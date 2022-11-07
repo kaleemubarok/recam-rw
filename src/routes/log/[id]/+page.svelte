@@ -58,7 +58,7 @@
   const confirmLagi = () => confirm("Yakin anda sudah memastikan komunikasi ini telah teratasi?") ? resolveCommunication(id) : '';
 
   async function resolveCommunication(id) {
-    const res = await fetch(env.PUBLIC_API_ENDPOINT+`/v1/log/`+id+`/resolved`,{
+    const res = await fetch(env.PUBLIC_API_ENDPOINT+`/log/`+id+`/resolved`,{
         method: "PUT",
         headers: {
           "content-type": "application/json",
